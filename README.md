@@ -1,3 +1,3 @@
 # Industrious.Publish
 
-Shared base implementation for the Industrious websites.
+[Eleventy](https://www.11ty.dev)-based base implementation for the Industrious websites.
