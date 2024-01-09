@@ -1,0 +1,15 @@
+{
+	"name": "my-website",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"build": "eleventy",
+		"watch": "eleventy --watch",
+		"serve": "eleventy --serve",
+		"start": "eleventy --serve",
+		"debug": "DEBUG=* eleventy"
+	},
+	"devDependencies": {
+		"base": "file:./src/_includes/base"
+	}
+}

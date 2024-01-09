@@ -1,0 +1,26 @@
+---
+layout: base/layouts/page
+---
+{%- css %}
+{% include "base/css/std-bundle.njk" %}
+{% include "css/site.css" %}
+{%- endcss %}
+
+{% include "base/partials/skip-to-main-content.njk" %}
+
+<main id="main-content" class="wrapper">
+  {{ content | safe }}
+</main>
+
+<footer class="wrapper">
+  <ul class="inline-list">
+    <li><a href="https://onebetween.net/">One, Between</a></li>
+    <li><a href="https://industriousone.com/">Industrious One</a></li>
+  </ul>
+  <ul class="inline-list">
+    <li><a href="mailto:jess@industriousone.com">Email</a></li>
+    <li><a rel="me" href="https://hachyderm.io/@starkos">Mastodon</a></li>
+    <li><a href="https://github.com/starkos">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/starkos">LinkedIn</a></li>
+  </ul>
+</footer>

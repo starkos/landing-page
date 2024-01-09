@@ -1,0 +1,21 @@
+:root {
+  --font-family-body: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
+  --inline-list-separator: "/";
+}
+
+main h1:first-child {
+  margin-block-start: 5rem;
+  margin-block-end: 3rem;
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-block: var(--size-xxl);
+  text-transform: lowercase;
+}
+
+footer a:not(:hover) {
+  text-decoration: none;
+}

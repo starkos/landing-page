@@ -1,3 +1,5 @@
-# Industrious.Publish
+# @starkos/landing-page
 
-Shared base implementation for the Industrious websites.
+A website for my person.
+
+Built on [Eleventy](https://www.11ty.dev).

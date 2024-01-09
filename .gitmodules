@@ -1,0 +1,3 @@
+[submodule "src/_includes/base"]
+	path = src/_includes/base
+	url = git@github.com:starkos/industrious-publish
