@@ -1,0 +1,17 @@
+---
+title: Creative Logs
+permalink: /logs/index.html
+---
+
+<h1>Creative Logs</h1>
+
+<p>Experimenting with a semi-regular <a href="https://notes.andymatuschak.org/zCMhncA1iSE74MKKYQS5PBZ">creative work log</a>.</p>
+
+<ul class="log-index">
+{% for entry in collections.logs | reverse %}
+  <li>
+    <a href="{{ entry.url }}"><time>{{ entry.date | formatDate }}</time></a>
+    / <span>{{ entry.data.blurb }}</span>
+  </li>
+{% endfor %}
+</ul>

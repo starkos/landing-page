@@ -1,0 +1,11 @@
+---
+layout: layouts/site-page
+---
+
+<h1><a href="/logs/">Creative Logs</a></h1>
+<h2>{{ page.date | formatDate }}</h2>
+
+{{ content | safe }}
+
+{%- set collection = collections.logs %}
+{% include "base/partials/links-prev-next.njk" %}

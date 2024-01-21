@@ -19,3 +19,15 @@ footer {
 footer a:not(:hover) {
   text-decoration: none;
 }
+
+h1 a {
+  text-decoration: none;
+}
+
+.log-index {
+  list-style-type: disc;
+}
+
+.log-index li span {
+  text-transform: lowercase;
+}
