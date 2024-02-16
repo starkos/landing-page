@@ -5,7 +5,7 @@ module.exports = {
 		main: [
 			{
 				href: '/logs/',
-				text: 'Logs'
+				text: '📅 Logs'
 			}
 		]
 	}
